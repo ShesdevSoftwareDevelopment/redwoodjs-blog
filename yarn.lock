@@ -6471,7 +6471,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:^18.13.0":
   version: 18.13.0
   resolution: "@types/node@npm:18.13.0"
   checksum: 985ca4e6e19fb0ee8bf5618f96f0b6d96a434c28a9123c93f25a3dcc202c3fa903cf234fcee649e10977b057ccb3b796e81b094d9c84eadbaa2b7c4b97a8866e
@@ -20760,6 +20760,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@redwoodjs/core": 4.1.3
+    "@types/node": ^18.13.0
   languageName: unknown
   linkType: soft
 
@@ -23559,20 +23560,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vscode-jsonrpc@npm:8.0.2":
-  version: 8.0.2
-  resolution: "vscode-jsonrpc@npm:8.0.2"
-  checksum: 349ae58c725d9d45f2f43914c0fdaf722a2f26669fb5f95f3200e1fd2520496936c20bee19144305dcbaa6ec2de438792444d3be365b110f454c377e37a70550
+"vscode-jsonrpc@npm:8.1.0":
+  version: 8.1.0
+  resolution: "vscode-jsonrpc@npm:8.1.0"
+  checksum: cb797b892227e7997378c6a1563b9849b6ec8190daae6fd18909fff4b33f6a98690bb315b95a3e4eeb9bf373d11896028c2111d71101544dfa16cb18a53cfcaa
   languageName: node
   linkType: hard
 
 "vscode-languageserver-protocol@npm:^3.15.3":
-  version: 3.17.2
-  resolution: "vscode-languageserver-protocol@npm:3.17.2"
+  version: 3.17.3
+  resolution: "vscode-languageserver-protocol@npm:3.17.3"
   dependencies:
-    vscode-jsonrpc: 8.0.2
-    vscode-languageserver-types: 3.17.2
-  checksum: 33b51bdbc69f0a3b680abc87d02372392afe139d092d47efc98dc716d1c4d71f6615f366698b563f88964554958e7097df5500c31ec739b21ea4e74b6d38254e
+    vscode-jsonrpc: 8.1.0
+    vscode-languageserver-types: 3.17.3
+  checksum: c8448cab8c8e3df386825f129a2f06a748510ad3407cb3d2122c6b661e973c32bb2f2612d64ea80e8c0344001adc80ee2f4c8bbce4fa81dd3eef888309457578
   languageName: node
   linkType: hard
 
@@ -23587,6 +23588,13 @@ __metadata:
   version: 3.17.2
   resolution: "vscode-languageserver-types@npm:3.17.2"
   checksum: 3d9424311070dc4a5e3a06dd454a1971988d3b76a7eca80660ee20e26c20fb7cc03359a117b11a887e8c1b7a65c13fd81120bc85b618c7c571eb200dbd7ed45c
+  languageName: node
+  linkType: hard
+
+"vscode-languageserver-types@npm:3.17.3":
+  version: 3.17.3
+  resolution: "vscode-languageserver-types@npm:3.17.3"
+  checksum: a70d4ac0dbc08ba425b97e329e6a5696dabc6a264415bacb861e10d859b224f1b46d1fb41c17b6fdd31b32749d3bdfc819cb1b8a57dbe0d1e70e661ba8cfa397
   languageName: node
   linkType: hard
 
